@@ -1,0 +1,13 @@
+{
+  "hosting": [
+    {
+      "target": "fitness-solution-trainer-dev",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}

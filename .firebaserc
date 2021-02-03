@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "nongcalcal-cf9db",
+    "prod": "calcal-9dfa0"
+  },
+  "targets": {
+    "nongcalcal-cf9db": {
+      "hosting": {
+        "dev": [
+          "stage-trainer-liff-dev"
+        ]
+      }
+    },
+    "calcal-9dfa0": {
+      "hosting": {
+        "prod": [
+          "stage-trainer-liff-8a6ae"
+        ]
+      }
+    }
+  }
+}
